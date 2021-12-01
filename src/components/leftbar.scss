@@ -1,0 +1,23 @@
+
+
+.leftbar {
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 57px;
+    width: 72px;
+    height: calc(100vh - 57px);
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 30px;
+
+        .leftbar-menu-btn {
+            outline: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}

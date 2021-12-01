@@ -1,0 +1,32 @@
+.chip-container {
+    position: fixed;
+    left: 72px;
+    top: 56px;
+    background-color: white;
+    // display: flex;
+    // align-items: center;
+    width: 100%;
+    border-top: 2px solid rgb(249, 249, 249);
+
+    .wrapper {
+        display: flex;
+        gap: 4px;
+        align-items: center;
+        overflow: hidden;
+
+        .chip {
+            height: 32px;
+            min-width: 12px;
+            justify-content: center;
+            background-color: rgb(242, 242, 242);
+            border-radius: 16px;
+            outline: none;
+            border: none;
+            margin: 12px;
+            flex-shrink: 0;
+            align-items: center;
+            padding: 0px 15px;
+            display: flex;
+        }
+    }
+}
