@@ -7,7 +7,7 @@
 
 .App {
   background-color: rgb(249,249,249);
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .bars {
